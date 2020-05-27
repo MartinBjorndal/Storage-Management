@@ -1,0 +1,188 @@
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 100%;
+  background-image: url("/src/img/bakgrunn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+#titel {
+  text-align: center;
+  font-size: 8rem;
+  font-family: 'Inter', Times;
+  font-weight: lighter;
+  font-style: normal;
+  /*text-shadow: 1px 1px 5px #000000;*/
+  color: #000000
+}
+
+#wrapper {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: calc(15rem/2);
+  margin-left: -50%;
+}
+
+#admin_wrapper{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -300px;
+}
+
+.brukere{
+  background-color: transparent;
+  border: none;
+}
+.brukere:active {
+  position: relative;
+  top: 1px;
+}
+
+.inventar{
+  background-color: transparent;
+  border: none;
+}
+.inventar:active {
+  position: relative;
+  top: 1px;
+}
+
+
+.utskjekk {
+  margin-top: 15rem;
+  background-color: transparent;
+  border-radius: 10rem;
+  border: 4px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Inter', Times;
+  font-size: 7rem;
+  font-weight: bold;
+  font-style: normal;
+  height: 15rem;
+  line-height: 50%;
+  width: 25%;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000000;
+}
+.utskjekk:active {
+  position: relative;
+  top: 1px;
+}
+
+.innskjekk {
+  background-color: transparent;
+  border: 4px solid #ffffff;
+  border-radius: 10rem;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Inter', Times;
+  font-size: 7rem;
+  font-weight: bold;
+  font-style: normal;
+  height: 15rem;
+  line-height: 50%;
+  width: 25%;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000000;
+}
+.innskjekk:active {
+  position: relative;
+  top: 1px;
+}
+
+.nyinventarform{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Inter', Times;
+  color: #000000;
+  text-shadow: 1px 1px 5px #ffffff;
+}
+
+.ny_inventar {
+  margin-top: 27.5rem;
+  margin-left: -100px;
+  float: right;
+  background-color: transparent;
+  border: none;
+}
+
+.ny_inventar:active {
+  position: relative;
+  top: 1px;
+}
+
+
+.back {
+  margin-top: 27.5rem;
+  margin-right: -100px;
+  float: left;
+  background-color: transparent;
+  border: none;
+}
+
+.back:active {
+  position: relative;
+  top: 1px;
+}
+
+
+
+#container {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
+}
+
+#info{
+  font-family: 'Inter', Times;
+  text-shadow: 1px 1px 5px #ffffff
+}
+
+input[type=submit] {
+  border-radius: 5px;
+  border: 0;
+  width: 6rem;
+  height:3rem;
+  font-family: Tahoma;
+  background: #f4f4f4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+  /* IE6-9 */
+}
